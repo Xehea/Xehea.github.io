@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Lora-MediumItalic";
+	src: url("../fonts/Lora-MediumItalic.ttf");
+}
+
+@font-face {
+	font-family: "Lora-Italic-VariableFont_wght";
+	src: url("../fonts/Lora-Italic-VariableFont_wght.ttf");
+}
+
+main {
+   width: 90%;
+   background-color: #705252;
+   padding: 40px;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   box-shadow: 10px 10px 30px 20px rgba(0,0,130,0.9);
+}
+
+body {
+   background-color: #5c5c5c;
+}
+
+h1 {
+   padding: 30px 20px;
+   margin: 0px 200px;
+   text-align: center;
+   font-family: "Lora-MediumItalic";
+   background-color: #525770;
+}
+p {
+   font-family: "Lora-Italic-VariableFont_wght";
+   background-color: #706d52;
+}
+
+div {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+div:hover {
+	transform: rotate(3deg) scale(1.1);
+}
+
+.photo1 {
+    background-image: url(../img/meme_1.jpg);
+}
+
+.photo2 {
+    background-image: url(../img/meme_2.jpg);
+}
+
+.photo3 {
+    background-image: url(../img/meme_3.jpg);
+}
+.photo4 {
+    background-image: url(../img/meme_4.jpg);
+}
+
+.photo5 {
+    background-image: url(../img/meme_5.jpg);
+}
+
+.photo6 {
+    background-image: url(../img/meme_6.jpg);
+}
+.photo7 {
+    background-image: url(../img/meme_7.jpg);
+}
+
+.photo8 {
+    background-image: url(../img/meme_8.jpg);
+}
